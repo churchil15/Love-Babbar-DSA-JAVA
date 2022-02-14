@@ -1,3 +1,5 @@
+// YT Link --> https://www.youtube.com/watch?v=t6zLJOCVqD0&list=PLDzeHZWIZsTryvtXdMr6rPh4IDexB5NIA&index=2
+
 public class Lecture2{
     public static void main(String[] args) {
         System.out.println("Namaste Dunia :-)\n");
