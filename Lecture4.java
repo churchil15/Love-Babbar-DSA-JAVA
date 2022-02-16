@@ -367,6 +367,8 @@ public class Lecture4 {
         }
 
 
+        // Homework Question-->
+        
         // int i6 = 1;
         // while(i6 <= n){
         //     // part 1: numbers from 1 to n-i+1
