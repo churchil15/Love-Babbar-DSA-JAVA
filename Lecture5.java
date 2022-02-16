@@ -1,3 +1,5 @@
+// YT Link --> https://www.youtube.com/watch?v=yjdQHb2elqI&list=PLDzeHZWIZsTryvtXdMr6rPh4IDexB5NIA&index=5&t=3810s
+
 import java.util.Scanner;
 
 public class Lecture5 {
