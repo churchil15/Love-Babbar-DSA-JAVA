@@ -172,5 +172,7 @@ public class Lecture3 {
             row1++;
         }
 
+        sc.close();
+
     }
 }
