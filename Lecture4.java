@@ -397,5 +397,6 @@ public class Lecture4 {
         // }
 
 
+        sc.close();
     }
 }
