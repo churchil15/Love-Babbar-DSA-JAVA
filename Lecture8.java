@@ -285,6 +285,7 @@ public class Lecture8 {
 
         System.out.println("number n is " + n);
 
+        sc.close();
 
     }
     

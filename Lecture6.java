@@ -45,5 +45,6 @@ public class Lecture6 {
 
         System.out.println("Answer is: " + ans);
         
+        sc.close();
     }
 }
