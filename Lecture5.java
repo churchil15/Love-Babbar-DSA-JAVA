@@ -120,6 +120,7 @@ public class Lecture5 {
         //     }
         // }
 
+        sc.close();
 
                
                 
