@@ -237,5 +237,7 @@ public class Lecture9 {
         
         reverse(arr2, 5);
         printArray(arr2);
+
+        sc.close();
     }
 }
