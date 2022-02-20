@@ -72,10 +72,34 @@ public class Lecture9 {
             if(arr[i] == element){
                 return true;
             }
-            
         }
 
         return false;
+    }
+
+    public static void reverse(int[] arr, int size){
+
+        int temp;
+        int start = 0, end = size-1;
+
+        for(int i = 0;i<size;i++){
+            temp = arr[i];
+            arr[i] = arr[size - 1 - i];
+            arr[size - 1 - i] = temp;
+
+            start++;
+            end--;
+
+            if(start>end){
+                break;
+            }
+
+        }
+
+        // for(int i = 0;i<size;i++){
+        //     System.out.print(arr[i] + " ");
+        // }
+
     }
 
     public static void main (String[] args){
@@ -172,18 +196,46 @@ public class Lecture9 {
 
 
         // Linear Search
-        int[] arr = {5, 7, -2, 10, 22, -2, 0, 5, 22, 1};
+        // int[] arr = {5, 7, -2, 10, 22, -2, 0, 5, 22, 1};
 
-        System.out.println("Enter the element to search for");
-        int key = sc.nextInt();
+        // System.out.println("Enter the element to search for");
+        // int key = sc.nextInt();
 
-        boolean found = search(arr, 10, key);
+        // boolean found = search(arr, 10, key);
 
-        if(found){
-            System.out.println("Element is present");
-        }
-        else{
-            System.out.println("Element is not present");
-        }
+        // if(found){
+        //     System.out.println("Element is present");
+        // }
+        // else{
+        //     System.out.println("Element is not present");
+        // }
+
+
+        // Reverse the array
+        // int[] arr = {5, 7, -2, 10, 22, -2, 0, 5, 22};
+        // int[] arr = {7,9,9,9,0,7,2,8,5,1};
+
+        // int temp;
+        // for(int i = 0;i<arr.length/2;i++){
+        //     temp = arr[i];
+        //     arr[i] = arr[arr.length - 1 - i];
+        //     arr[arr.length - 1 - i] = temp;
+        // }
+
+        // for(int i = 0;i<arr.length;i++){
+        //     System.out.print(arr[i] + " ");
+        // }
+
+
+        // Approach 2nd -->
+        // int[] arr = {5, 7, -2, 10, 22, -2, 0, 5, 22};
+        int[] arr = {1,4,0,5,-2,15};
+        int[] arr2 = {2,6,3,9,4};
+
+        reverse(arr, 6);
+        printArray(arr);
+        
+        reverse(arr2, 5);
+        printArray(arr2);
     }
 }
