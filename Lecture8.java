@@ -13,8 +13,11 @@ public class Lecture8 {
         for(int i = 1;i<=b;i++){
             ans = ans * a;
         }
-        
+
+        sc.close();        
         return ans;
+
+        
 
     }
 
