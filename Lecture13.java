@@ -1,3 +1,5 @@
+// First and last occurence of a number in an array
+
 public class Lecture13 {
 
     public static int firstOcc(int[] arr, int key){
