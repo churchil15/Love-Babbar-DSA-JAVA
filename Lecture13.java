@@ -65,6 +65,7 @@ public class Lecture13 {
         System.out.println("First Occurence of 3 is at Index: " + firstOcc(even, 3));
         System.out.println("Last Occurence of 3 is at Index: " + lastOcc(even, 3));
 
+        // Formula for calculating total occurence of a number
         int totalOcc = (lastOcc(even, 3) - firstOcc(even, 3)) + 1;
         System.out.println("Total number of Occurence of 3 is: " + totalOcc);
     }
