@@ -1,4 +1,4 @@
-// First and last of a number in an array
+// First and last occurence of a number in an array
 
 public class Lecture13 {
 
