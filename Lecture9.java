@@ -96,9 +96,10 @@ public class Lecture9 {
 
         }
 
-        // for(int i = 0;i<size;i++){
-        //     System.out.print(arr[i] + " ");
-        // }
+        // Comment htaya hai
+        for(int i = 0;i<size;i++){
+            System.out.print(arr[i] + " ");
+        }
 
     }
 
