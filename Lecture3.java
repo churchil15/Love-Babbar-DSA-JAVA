@@ -138,7 +138,7 @@ public class Lecture3 {
 
             if(n%i == 0){
                 System.out.println("Not Prime");
-                i++;
+                // i++; Not Neccessary to increment here
                 break;
             }
             else{
